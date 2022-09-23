@@ -12,7 +12,7 @@ interesante el poder crecer en algo en lo que carezco.</p>
 <p>Eo (respuesta)</p>
 
   <p> Escribir "¿El presidente de Mexico es Andres Manuel Lopez Obrador?"</p>
- <p>  mostrar respuesta</p>
+ <p> mostrar respuesta</p>
   <p> si respuesta es igual a "si" entonces</p> 
     <p> Escribir "¿Benito Juarez era muy alto?"</p>
     <p> mostrar respuesta</p> 
