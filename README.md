@@ -11,26 +11,26 @@ interesante el poder crecer en algo en lo que carezco.</p>
 
 <p>Eo (respuesta)</p>
 
-  <p>Escribir "¿El presidente de Mexico es Andres Manuel Lopez Obrador?"</p>
- <p>mostrar respuesta</p>
-  <p>si respuesta es igual a "si" entonces</p> 
-    <p>Escribir "¿Benito Juarez era muy alto?"</p>
-    <p>mostrar respuesta</p> 
-    <p>si respuesta es igual a "si" entonces</p>
-     <p>Escribir "¿Es un pollo el logo de la bandera de Mexico?</p>
-     <p>mostrar respuesta</p>
-     <p>si respuesta es igual a "si" entonces</p> 
-      <p>Escribir "¿El dia son 24 horas?"</p>
-      <p>si respuesta es igual a "si" entonces</p>
-       <p>Escribir "Ganaste"</p>
-      <p>si no</p> 
-       <p>Escribir "Perdiste"</p>
-     <p>si no</p>
-      <p>Escribir "Perdiste"</p>
-    <p>si no</p>
-     <p>Escribir "Perdiste"</p>
-  <p>si no</p>
-   <p>si no</p>
-<p>Ef</p>
+  <p> Escribir "¿El presidente de Mexico es Andres Manuel Lopez Obrador?"</p>
+ <p>  mostrar respuesta</p>
+  <p> si respuesta es igual a "si" entonces</p> 
+    <p> Escribir "¿Benito Juarez era muy alto?"</p>
+    <p> mostrar respuesta</p> 
+    <p> si respuesta es igual a "si" entonces</p>
+     <p>  Escribir "¿Es un pollo el logo de la bandera de Mexico?</p>
+     <p>  mostrar respuesta</p>
+     <p>  si respuesta es igual a "si" entonces</p> 
+      <p> Escribir "¿El dia son 24 horas?"</p>
+      <p> si respuesta es igual a "si" entonces</p>
+       <p>  Escribir "Ganaste"</p>
+      <p> si no</p> 
+       <p>  Escribir "Perdiste"</p>
+     <p>  si no</p>
+      <p> Escribir "Perdiste"</p>
+    <p> si no</p>
+     <p>  Escribir "Perdiste"</p>
+  <p> si no</p>
+   <p>  si no</p>
+<p> Ef</p>
 
 
