@@ -1,4 +1,4 @@
-#A01412171 Alan Herrera Martínez 
+#A01412171 Alan Herrera Martínez.
 
 """
 description: funcion para calificar preguntas
