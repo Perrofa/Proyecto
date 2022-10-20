@@ -1,8 +1,10 @@
 # A01412171 Alan Herrera Martínez
 
 ## Corecciones:
+### Cambio: Se cambio calificación de pregunta y el despliegue de preguntas para el uso de listas anidadas.</p>
 ### Subcompetencia: Separa el código en funciones pequeñas reusables, haciendo uso correcto de paso por parametros y return (avance 3)
 <p>Se implemento el uso de funciones para calificar la respuesta y tambien para imprimir los resultados.</p>
+
 
 ~~~
 
