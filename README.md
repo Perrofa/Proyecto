@@ -8,8 +8,7 @@
 ### Competencias a evaluar: 
 <p> Codifico métodos y atributos de clase (constructores, getters, setters y otros métodos), compruebo el acceso a los atributos y métodos de la clase (encapsulamiento correcto, mando a llamar los objetos de forma útil), cumplo con estándares en mi repositorio: tiene un readme claro que explica el proyecto (para que sirve, para que no sirve y como se usa), no tiene archivos basura o versiones pasadas y uso una herramienta para control de versiones (github).</p>
 
-
-##Consideración:
+## Consideración:
 <p> El programa solo corre en la consola y esta hecho con c++ standard por lo que corre en todos los sistemas operativos
 
 compilar con: "g++ empleado.h empresa.h main.cpp"
