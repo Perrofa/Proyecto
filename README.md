@@ -16,3 +16,8 @@ compilar con: "g++ empleado.h empresa.h main.cpp"
 correr en linux: "/a.out"
 
 correr en windows: "a.exe".</p>
+
+## AVANZE: Imagen de diagrama de clases 
+
+![image](https://user-images.githubusercontent.com/111369005/202612994-40c15111-8ce3-48aa-8b94-00dad6076b92.png)
+
