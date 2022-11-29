@@ -1,7 +1,8 @@
 #ifndef BEBIDA_H
 #define BEBIDA_H
+#include "Platillo.h"
 
-class Bebida{ 
+class Bebida: private Platillo { 
    //Atributos del objeto
   private:
     int mililitros;

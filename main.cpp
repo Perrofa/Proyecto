@@ -16,6 +16,7 @@
 #include "Comida.h" //donde estan los objetos de mi proyecto :).
 #include "Bebida.h"
 #include "Mesa.h"
+#include "Silla.h"
 
 using namespace std;
 
@@ -43,13 +44,15 @@ int main(){
   cout << "Queso: " << pizza.getQueso() << endl;
   cout << "Jamon: " << pizza.getJamon() << endl;
   cout << "Peperoni: " << pizza.getPeperoni() << endl;
+
+  Silla tipoDeSilla("negro");
   
-  Mesa mesa1(false, 4);
+  Mesa mesa1(false, 4, tipoDeSilla);
 
   mesa1.setMesaVip(true);
-  mesa1.setSillas(10);
+  mesa1.setCantidadSillas(10);
 
   mesa1.getMesaVip() ? cout << "La mesa es vip" << endl : cout << "la mesa es normal" << endl ;
 
-  cout << "La mesa tiene " << mesa1.getSillas() << " sillas" << endl;
+  cout << "La mesa tiene " << mesa1.getCantidadSillas() << " sillas" << endl;
 }

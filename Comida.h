@@ -1,8 +1,8 @@
 #ifndef COMIDA_H
 #define COOMIDA_H
+#include "Platillo.h"
 
-
-class Comida{
+class Comida: private Platillo {
   // Atributos del objeto 
   private:
     bool queso;
