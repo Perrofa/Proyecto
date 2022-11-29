@@ -19,5 +19,6 @@ correr en windows: "a.exe".</p>
 
 ## AVANCE: Imagen de diagrama de clases 
 
-![image](https://user-images.githubusercontent.com/111369005/202612994-40c15111-8ce3-48aa-8b94-00dad6076b92.png)
+
+![diagrama de clases drawio](https://user-images.githubusercontent.com/111369005/204430981-87183a20-1743-49eb-909d-4fa6eae36146.png)
 
