@@ -17,7 +17,7 @@ correr en linux: "/a.out"
 
 correr en windows: "a.exe".</p>
 
-## AVANCE: Imagen de diagrama de clases 
+## AVANCE (cambio ya que el anterior estaba mal y igualmente se cambio por que lo requeria el tercer avance): Imagen de diagrama de clases 
 
 
 ![diagrama de clases drawio](https://user-images.githubusercontent.com/111369005/204430981-87183a20-1743-49eb-909d-4fa6eae36146.png)
