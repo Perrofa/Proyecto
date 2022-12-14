@@ -2,9 +2,11 @@
 #define COMBO_H
 #include "Comida.h"
 #include "Bebida.h"
+#include "Platillo.h"
+#include <string>
 
-class Combo{
-  // Atributos del objeto 
+class Combo : public Platillo{
+  // Atributos  del objeto 
   private:
   Comida comida_c;
   Bebida bebida_c;  
@@ -20,13 +22,15 @@ class Combo{
     void setBebida_c(Bebida);
 
     //constructor
-    Combo(Comida, Bebida);
+    Combo(Comida, Bebida, std::string,double);
 };
 
 // Constructor 
-Combo::Combo(Comida _comida_c, Bebida _bebida_c ) {
+Combo::Combo(Comida _comida_c, Bebida _bebida_c ,std::string _nombre ,double _costo) {
   comida_c = _comida_c;
   bebida_c = _bebida_c;
+  nombre = _nombre;
+  costo = _costo;
 }
 Comida Combo::getComida_c(){
   return comida_c;

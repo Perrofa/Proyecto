@@ -1,8 +1,10 @@
 #ifndef BEBIDA_H
 #define BEBIDA_H
-#include "Platillo.h"
+#include "Platillo.h" 
+#include <string>
 
-class Bebida: private Platillo { 
+
+class Bebida: public Platillo { 
    //Atributos del objeto
   private:
     int mililitros;
@@ -16,17 +18,22 @@ class Bebida: private Platillo {
     //setters
     void setMililitros(int);
     void setHielos(bool);
+    //default 
     Bebida();
-    Bebida(bool, int);
+    //constructor de clase padre
+    Bebida(std::string,double);
+    Bebida(bool, int, std::string, double);
 };
 //Constructor default
 Bebida::Bebida(){
   mililitros=0;
 }
 // Constructor 
-Bebida::Bebida(bool _hielos, int _mililitros) {
+Bebida::Bebida(bool _hielos, int _mililitros, std::string _nombre, double _costo) {
   hielos = _hielos;
-  mililitros = _mililitros; 
+  mililitros = _mililitros;
+  nombre = _nombre;
+  costo = _costo;
 }
 
 bool Bebida::getHielos(){

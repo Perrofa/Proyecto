@@ -4,7 +4,7 @@
 
 class Platillo{ 
    //Atributos del objeto
-  private:
+  protected:
     double costo;
     std::string nombre;
 

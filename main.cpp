@@ -13,25 +13,24 @@
 */
 
 #include <iostream>   //para imprimir.
-#include "Comida.h" //donde estan los objetos de mi proyecto :).
-#include "Bebida.h"
+//#include "Comida.h" //donde estan los objetos de mi proyecto :).
+//#include "Bebida.h"
 #include "Combo.h"
 #include "Pedido.h"
 
 using namespace std;
 
 int main(){
-  Bebida refresco(false, 600);
-  cout << " 0 = False, 1 = True" << endl;
-  cout << "Bebida: refresco" << endl;
-  //vemos si tiene hielos
-  cout <<" Hielos: " <<  refresco.getHielos() << endl ;
+  // Crear menu
 
-  cout << "Agregando hielos" << endl;
-  //le ponemos hielos
-  refresco.setHielos(true);
-  
-  cout <<" Hielos: " <<  refresco.getHielos() << endl ;
-
-
+   //Bebidas
+  Bebida agua(false,600,"Agua",10.00);
+  Bebida refresco(true,600,"Refresco",12.50); 
+  Bebida cafe(false,360,"Cafe",25.99 );
+  //Comidas
+  Comida pizza(350,"Pizza",99.99);
+  Comida hamburguesa(175, "Hamburguesa", 75.00);
+  Comida hotdog(45, "Hot Dog", 49.99);
+  //Combos
+  Combo individual(hotdog,refresco,"Combo Indivual", 55.99);
 }

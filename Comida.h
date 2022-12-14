@@ -2,7 +2,7 @@
 #define COOMIDA_H
 #include "Platillo.h"
 
-class Comida: private Platillo {
+class Comida: public Platillo {
   // Atributos del objeto 
   private:
     int gramos;
@@ -14,15 +14,17 @@ class Comida: private Platillo {
     //setters
     void setGramos(int);
     Comida();
-    Comida(int);
+    Comida(int, std::string,double);
 };
 // Constructor default
 Comida::Comida(){
   gramos=0;
 }
 // Constructor 
-Comida::Comida(int _gramos){
-  gramos = _gramos; 
+Comida::Comida(int _gramos, std::string _nombre, double _costo){
+  gramos = _gramos;
+  nombre = _nombre;
+  costo = _costo;
 }
 int Comida::getGramos(){
   return gramos;
