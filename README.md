@@ -16,7 +16,7 @@ correr en linux: "/a.out"
 
 correr en windows: "a.exe".</p>
 
-## AVANCE (cambio ya que el anterior estaba mal y igualmente se cambio por que lo requeria el tercer avance): Imagen de diagrama de clases 
+## Imagen de diagrama de clases 
 
 
 
