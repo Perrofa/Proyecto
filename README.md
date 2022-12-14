@@ -19,5 +19,5 @@ correr en windows: "a.exe".</p>
 ## AVANCE (cambio ya que el anterior estaba mal y igualmente se cambio por que lo requeria el tercer avance): Imagen de diagrama de clases 
 
 
-![diagrama de clases drawio](https://user-images.githubusercontent.com/111369005/204430981-87183a20-1743-49eb-909d-4fa6eae36146.png)
 
+![levan](https://user-images.githubusercontent.com/111369005/207677609-b8f664de-0665-43fe-8eb3-bc3dce7cbda5.png)
