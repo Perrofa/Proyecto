@@ -20,8 +20,8 @@ class Bebida: public Platillo {
     void setHielos(bool);
     //default 
     Bebida();
-    //constructor de clase padre
-    Bebida(std::string,double);
+    //constructor
+    
     Bebida(bool, int, std::string, double);
 };
 //Constructor default
@@ -29,11 +29,10 @@ Bebida::Bebida(){
   mililitros=0;
 }
 // Constructor 
-Bebida::Bebida(bool _hielos, int _mililitros, std::string _nombre, double _costo) {
+Bebida::Bebida(bool _hielos, int _mililitros, std::string _nombre, double _costo):Platillo(_costo,_nombre) {
   hielos = _hielos;
   mililitros = _mililitros;
-  nombre = _nombre;
-  costo = _costo;
+  
 }
 
 bool Bebida::getHielos(){

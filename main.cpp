@@ -2,14 +2,13 @@
  * Proyecto restaurante
  * Alan Herrera Martínez
  * A01412171
- * 12/12/2022
+ * 15/12/2022
  */
 
 /**
  * Con este programa haré
- * diferentes tipos de ordenes en un retaurante
- * permite seleccionar la cantidad de ingredientes por alimento de acuerdo 
- * al gusto de cada cliente al igual que seleccionar la mesa adecuada.
+ * pedidos en un restaurente donde podras consultar  
+ * el total a pagar del pedido
 */
 
 #include <iostream>   //para imprimir.
@@ -33,4 +32,15 @@ int main(){
   Comida hotdog(45, "Hot Dog", 49.99);
   //Combos
   Combo individual(hotdog,refresco,"Combo Indivual", 55.99);
+
+  //Pedido
+
+  Pedido pedido_p;
+  cout<< pedido_p.getTotal() <<endl;
+  cout<< pedido_p.getContenido_c() <<endl;
+  pedido_p.addBebida_c(agua);
+  pedido_p.addCombo_c(individual);
+  pedido_p.addComida_c(pizza);
+  cout<< pedido_p.getTotal() <<endl;
+  cout<< pedido_p.getContenido_c() <<endl;
 }

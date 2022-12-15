@@ -21,10 +21,9 @@ Comida::Comida(){
   gramos=0;
 }
 // Constructor 
-Comida::Comida(int _gramos, std::string _nombre, double _costo){
+Comida::Comida(int _gramos, std::string _nombre, double _costo):Platillo(_costo,_nombre){
   gramos = _gramos;
-  nombre = _nombre;
-  costo = _costo;
+
 }
 int Comida::getGramos(){
   return gramos;

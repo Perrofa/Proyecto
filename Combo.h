@@ -26,11 +26,10 @@ class Combo : public Platillo{
 };
 
 // Constructor 
-Combo::Combo(Comida _comida_c, Bebida _bebida_c ,std::string _nombre ,double _costo) {
+Combo::Combo(Comida _comida_c, Bebida _bebida_c ,std::string _nombre ,double _costo):Platillo(_costo,_nombre) {
   comida_c = _comida_c;
   bebida_c = _bebida_c;
-  nombre = _nombre;
-  costo = _costo;
+
 }
 Comida Combo::getComida_c(){
   return comida_c;
