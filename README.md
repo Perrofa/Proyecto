@@ -19,5 +19,4 @@ correr en windows: "a.exe".</p>
 ## Imagen de diagrama de clases 
 
 
-
-![levan](https://user-images.githubusercontent.com/111369005/207677609-b8f664de-0665-43fe-8eb3-bc3dce7cbda5.png)
+![levanpol](https://user-images.githubusercontent.com/111369005/207774086-8067bf36-6ec5-43e5-9586-c3b68492f472.png)
